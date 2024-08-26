@@ -1,0 +1,470 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url('Industry-Black.woff2');
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#banner {
+  position: relative;	
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 250px;
+  display: none;
+}
+
+/* .bg {
+  opacity: 0;
+} */
+
+/* frame - 1 */
+/* .f1_shadow_bg {
+  opacity: 0;
+} */
+
+.f1_score_logo {
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  transform-origin: 150px 35px;
+}
+
+.f1_voorspel_text {
+  transform: translateY(20px) translateX(22px);
+  opacity: 0;
+}
+
+.gratis_top_bar {
+  transform: translateY(9px);
+  opacity: 0;
+}
+
+.gratis_bottom_bar {
+  transform: translateY(-9px);
+  opacity: 0;
+}
+
+.gratis_text {
+  opacity: 0;
+}
+
+.f1_uitslagen_text {
+  transform: translateY(20px) translateX(-22px);
+  opacity: 0;
+}
+
+.f1_win_text {
+  transform: translateX(-110px);
+  -webkit-transform: translateX(-110px);
+  transform-origin: 60px 107px;
+}
+
+
+.f1_bottom_text {
+  opacity: 0;
+}
+
+.outline {
+  position: absolute;
+  top: 91px;
+  left: 113px;
+  width: 170.5px;
+  height: 38px;
+  transform-origin: left center;
+}
+
+.text-line {
+  position: absolute;
+  top: 82px;
+  left: 108px;
+}
+
+.text-line text {
+  font-family: 'myFirstFont';
+  font-style: normal;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  letter-spacing: -2.4px;
+  fill: transparent;
+  fill-opacity: 0;
+  animation-fill-mode: initial;
+}
+
+
+
+/* frame - 2 */
+.f2_shadow_bg {
+  opacity: 0;
+}
+
+.f2_voorspel_text {
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.text-line-2 {
+  position: absolute;
+  top: 55px;
+  left: 55px;
+}
+
+.text-line-2 text {
+  font-family: 'myFirstFont';
+  font-style: normal;
+  stroke-dasharray: 533;
+  stroke-dashoffset: 533;
+  letter-spacing: -2.4px;
+  fill: transparent;
+  fill-opacity: 0;
+  animation-fill-mode: initial;
+}
+
+.f2_5000_text {
+  transform: rotateX(90deg);
+  transform-origin: 150px 148px;
+}
+
+
+
+
+/* frame - 3 */
+
+.f3_white_bg {
+  transform: translateY(-200px);
+}
+
+.f3_voorspel_text {
+  opacity: 0;
+}
+
+.f3_match_1 {
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+.f3_match_2 {
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+.f3_match_3 {
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+.f3_match_4 {
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+.f3_match_left_shirt_1 {
+  position: absolute;
+  top: 48px;
+  left: 54px;
+  width: 20.5px;
+  height: 27px;
+  transform-origin: center center;  
+}
+
+.f3_match_left_shirt_2 {
+  position: absolute;
+  top: 77.5px;
+  left: 53px;
+  width: 20.5px;
+  height: 27px;
+  transform-origin: center center;  
+}
+
+.f3_match_left_shirt_3 {
+  position: absolute;
+  top: 107px;
+  left: 54px;
+  width: 20px;
+  height: 26.5px;
+  transform-origin: center center;  
+}
+
+.f3_match_left_shirt_4 {
+  position: absolute;
+  top: 137px;
+  left: 54px;
+  width: 20px;
+  height: 27px;
+  transform-origin: center center;  
+}
+
+
+.f3_match_right_shirt_1{
+  position: absolute;
+  top: 47px;
+  left: 228px;
+  width: 20.5px;
+  height: 27.5px;
+  transform-origin: center center;    
+}
+
+.f3_match_right_shirt_2{
+  position: absolute;
+  top: 77px;
+  left: 227px;
+  width: 20.5px;
+  height: 28.5px;
+  transform-origin: center center;   
+}
+
+.f3_match_right_shirt_3{
+  position: absolute;
+  top: 107px;
+  left: 228px;
+  width: 20.5px;
+  height: 27px;
+  transform-origin: center center;   
+}
+
+.f3_match_right_shirt_4{
+  position: absolute;
+  top: 137px;
+  left: 229px;
+  width: 19px;
+  height: 25.5px;
+  transform-origin: center center;  
+}
+
+.f3_whole_match {
+  opacity: 0;
+}
+
+/* frame - 4 */
+.f4_text {
+  transform: translateX(-200px);
+}
+
+.f4_full_match_text {
+  opacity: 0;
+}
+
+.f4_score_text {
+  opacity: 0;
+}
+
+.f4_shirt_1 {
+  opacity: 0;
+}
+
+.f4_shirt_2 {
+  opacity: 0;
+}
+
+.f4_shirt_3 {
+  opacity: 0;
+}
+
+.f4_shirt_4 {
+  opacity: 0;
+}
+
+.f4_match_left_shirt_1 {
+  position: absolute;
+  top: 46px;
+  left: 174px;
+  width: 19.5px;
+  height: 26.5px;
+  transform-origin: center center;  
+}
+
+.f4_match_left_shirt_2 {
+  position: absolute;
+  top: 75px;
+  left: 174px;
+  width: 20px;
+  height: 26.5px;
+  transform-origin: center center;  
+}
+
+.f4_match_left_shirt_3 {
+  position: absolute;
+  top: 103.5px;
+  left: 175px;
+  width: 19px;
+  height: 25.5px;
+  transform-origin: center center;  
+}
+
+.f4_match_left_shirt_4 {
+  position: absolute;
+  top: 131px;
+  left: 175px;
+  width: 19.5px;
+  height: 26px;
+  transform-origin: center center;  
+}
+
+.f4_match_right_shirt_1{
+  position: absolute;
+  top: 46px;
+  left: 253px;
+  width: 20px;
+  height: 27px;
+  transform-origin: center center;    
+}
+
+.f4_match_right_shirt_2{
+  position: absolute;
+  top: 75px;
+  left: 253px;
+  width: 20px;
+  height: 27px;
+  transform-origin: center center;   
+}
+
+.f4_match_right_shirt_3{
+  position: absolute;
+  top: 104px;
+  left: 253px;
+  width: 19px;
+  height: 25.5px;
+  transform-origin: center center;   
+}
+
+.f4_match_right_shirt_4{
+  position: absolute;
+  top: 132px;
+  left: 253px;
+  width: 18.5px;
+  height: 25px;
+  transform-origin: center center;  
+}
+
+.win1 {
+  position: absolute;
+  top: 54px;
+  width: 13px;
+  height: 0px;
+  left: 12px;
+  background-color: #08752c;
+  transform: skewX(11deg);
+  transform-origin: top center;
+}
+
+.win2 {
+  position: absolute;
+  bottom: 133px;
+  width: 11px;
+  height: 0px;
+  left: 27px;
+  background-color: #08752c;
+  transform: skewX(-12deg);
+  transform-origin: bottom center;
+}
+
+.win3 {
+  position: absolute;
+  top: 56px;
+  width: 10px;
+  height: 0px;
+  left: 41px;
+  background-color: #08752c;
+  transform: skewX(12deg);
+  transform-origin: top center;
+}
+
+.win4 {
+  position: absolute;
+  bottom: 132px;
+  width: 12px;
+  height: 0px;
+  left: 56px;
+  background-color: #08752c;
+  transform: skewX(-10deg);
+  transform-origin: bottom center;
+}
+
+.win5 {
+  position: absolute;
+  top: 56px;
+  width: 13px;
+  height: 0px;
+  left: 83px;
+  background-color: #08752c;
+  transform: skewX(0deg);
+  transform-origin: top center;
+}
+
+.win6 {
+  position: absolute;
+  bottom: 132px;
+  width: 12px;
+  height: 0px;
+  left: 105px;
+  background-color: #08752c;
+  transform: skewX(0deg);
+  transform-origin: bottom center;
+}
+
+.win7 {
+  position: absolute;
+  top: 56px;
+  width: 13px;
+  height: 0px;
+  left: 105px;
+  background-color: #08752c;
+  transform: skewX(27deg);
+  transform-origin: top center;
+}
+
+.win8 {
+  position: absolute;
+  bottom: 133px;
+  width: 12px;
+  height: 0px;
+  left: 135px;
+  background-color: #08752c;
+  transform: skewX(0deg);
+  transform-origin: bottom center;
+}
+
+
+/* frame - 2 to 4 */
+.meespelen_text {
+  transform: translateY(100px);
+}
+
+.f4_win_text {
+  transform-origin: 80px 84px;
+}
+
+.score_logo {
+  opacity: 0;
+}
+
+.cta_bg {  
+  top: 184px;
+  left: 82px;
+  width: 0px;
+  height: 25px;
+}
+
+.cta_text {
+  opacity: 0;
+}
+
+.cta {
+  opacity: 0;
+  transform-origin: 150px 196px;
+}
